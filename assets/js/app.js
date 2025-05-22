@@ -5,7 +5,7 @@ const $b = document.querySelector('#blog');
 const $l = document.querySelector('.location');
 const data = await response.json();// lo agregué para que el data funcione 
 
-//agregé async para que await funcionara
+//agregé async para que await funcionara lkndlsknd
 function async displayUser(username) {
   $n.textContent = 'cargando...';
   const response = await fetch(`${usersEndpoint}/${username}`);
